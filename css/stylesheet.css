@@ -1,0 +1,90 @@
+*{
+    font-style: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header__title{
+    display: flex;
+    width: 100%;
+}
+
+.header__title img{
+    width: 300px;
+    margin: auto;
+}
+
+.header__opciones{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 0 #888888;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+
+li{
+    color: #666666;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.contenido{
+    border: .5px solid #c7c4c4;
+    box-shadow:1px 1px 1px 1px#888888;
+    margin: 20px 80px;
+    height: 100%;
+}
+
+
+.gura, .amelia{
+    display: flex;
+    max-height: 300px;
+    box-shadow: 2px 3px 2px 0 rgb(172, 172, 172);
+}
+
+
+.amelia__img, .gura__img{
+    max-width: 25%;
+    max-height: 25%;
+    min-width: 25%;
+    min-height: 25%;
+
+}
+
+
+
+p{
+    color: rgb(102, 102, 102);
+    text-align:left;
+}
+
+.img-vtuber{
+    width: 100%;
+}
+
+.contenido div{
+    margin-bottom: 25px;
+}
+
+.gura-watson p{
+    text-align: center;
+    color: rgb(31, 165, 42);
+    font-size: 100px;
+}
